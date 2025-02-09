@@ -35,7 +35,7 @@ class ProfilePageWidget extends StatelessWidget {
                   
                     
                       Container(height:80, width:80, decoration: const BoxDecoration(shape: BoxShape.circle, color: Colors.white)),
-                      SizedBox(height: 20,)
+                      const SizedBox(height: 20,)
                       ,const Text(
                           'Daaaraaaa',
                           textAlign: TextAlign.start,

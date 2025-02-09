@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_101/page_answer/answer_portal.dart';
-
+// import 'package:flutter_project_101/page_answer/answer_portal.dart';
+import 'package:flutter_project_101/week4/aqi.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AnswerPortal()
+      home: const MyWidget()
         
     );
   }
